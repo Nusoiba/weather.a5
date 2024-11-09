@@ -39,7 +39,7 @@ btns.forEach((btn , index) => {
             `
         }else if(index === 5){
             text.innerHTML = `
-            My password is <h4>${userInfo.gender}</h4>
+            My password is <h4>${userInfo.login.password}</h4>
             `
         }
     })
